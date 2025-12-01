@@ -1,3 +1,77 @@
+🚀 Admin Panel
+
+An Admin Panel built with React and Vite, providing a fast, modern development environment with HMR, ESLint integration, and the new React Compiler enabled by default.
+
+📦 Tech Stack
+
+React 18
+
+Vite (super-fast dev server + build tool)
+
+React Compiler (experimental, improves performance/ DX)
+
+ESLint (code quality & linting rules)
+
+JavaScript / JSX
+
+⚙️ Features
+
+🔥 Fast Refresh with Vite
+
+⚡ Lightning-fast builds
+
+🧹 ESLint ready (configurable for production)
+
+🔧 Supports both:
+
+@vitejs/plugin-react (Babel / oxc)
+
+@vitejs/plugin-react-swc (SWC)
+
+🧪 Compatible with additional tooling like Tailwind, Zustand, Redux Toolkit, etc.
+
+📁 Project Structure
+admin-panel/
+ ├── public/
+ ├── src/
+ │   ├── components/
+ │   ├── pages/
+ │   ├── App.jsx
+ │   ├── main.jsx
+ ├── .eslintrc.js
+ ├── package.json
+ ├── vite.config.js
+ └── README.md
+
+🚀 Getting Started
+1️⃣ Install Dependencies
+npm install
+
+2️⃣ Start Dev Server
+npm run dev
+
+3️⃣ Build for Production
+npm run build
+
+4️⃣ Preview Production Build
+npm run preview
+
+🔧 React Compiler
+
+This template ships with the React Compiler enabled.
+Learn more: https://react.dev/learn/react-compiler
+
+⚠️ Note: This may impact Vite dev/build performance.
+
+🧹 ESLint Configuration
+
+If you plan to scale this into a production-grade project, consider using TypeScript with type-aware linting:
+
+🔗 https://typescript-eslint.io
+
+🔗 Vite React + TS Template:
+https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
