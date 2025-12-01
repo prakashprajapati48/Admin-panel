@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef, useLayoutEffect } from 'react'
 import './App.css'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter  as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Component/Navbar';
 import Login from './Component/Login/Login';
 import Dashboard from './Component/Dashboard/Dashboard';
