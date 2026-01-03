@@ -31,17 +31,24 @@ JavaScript / JSX
 🧪 Compatible with additional tooling like Tailwind, Zustand, Redux Toolkit, etc.
 
 📁 Project Structure
-admin-panel/
- ├── public/
- ├── src/
- │   ├── components/
- │   ├── pages/
- │   ├── App.jsx
- │   ├── main.jsx
- ├── .eslintrc.js
- ├── package.json
- ├── vite.config.js
- └── README.md
+    
+    admin-panel/
+      │
+      ├── public/                     # Static public assets
+      │
+      ├── src/                        # Application source code
+      │   ├── components/             # Reusable UI components
+      │   ├── pages/                  # Page-level components (Dashboard, Login, etc.)
+      │   ├── App.jsx                 # Root React component
+      │   └── main.jsx                # Application entry point
+      │
+      ├── .gitignore                  # Files & folders ignored by Git
+      ├── README.md                   # Project documentation
+      ├── eslint.config.js             # ESLint configuration
+      ├── index.html                  # Main HTML template
+      ├── package-lock.json            # Dependency lock file
+      ├── package.json                 # Project dependencies & scripts
+      └── vite.config.js               # Vite configuration file
 
 🚀 Getting Started
 1️⃣ Install Dependencies
